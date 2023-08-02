@@ -9,6 +9,8 @@ Woohoo.
 
 ## Topics Covered
 
+![grass](./fauzan-saari-pZXg_ObLOM4-unsplash.jpg)
+
 1. Gatsby
 2. GraphQL
 3. React
