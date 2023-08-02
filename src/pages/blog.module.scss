@@ -1,0 +1,18 @@
+.posts {
+  list-style-type: none;
+  margin: 0;
+}
+
+.post {
+  margin: 1rem 0;
+  background: #f4f4f4;
+  padding: 1rem;
+
+  a {
+    
+    color: #333333;
+    display: block;
+    
+    text-decoration: none;
+  }
+}
