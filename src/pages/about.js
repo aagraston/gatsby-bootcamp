@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Layout from "../components/layout";
 
-const aboutPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
       <h1>About Page</h1>
@@ -14,4 +14,4 @@ const aboutPage = () => {
   );
 };
 
-export default aboutPage;
+export default AboutPage;

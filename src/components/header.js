@@ -4,7 +4,7 @@ import { Link, graphql, useStaticQuery } from "gatsby";
 import * as headerStyles from './header.module.scss'
 
 const Header = () => {
-  const Data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
   query {
     site {
       siteMetadata {
@@ -18,7 +18,7 @@ const Header = () => {
     <header className={headerStyles.header}>
       <h1>
         <Link className={headerStyles.title} to="/">
-        {Data.site.siteMetadata.title}
+        {data.site.siteMetadata.title}
         </Link>
         </h1>
       <nav>

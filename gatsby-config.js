@@ -10,7 +10,17 @@
 module.exports = {
   siteMetadata: {
     title: `Aaron's Blog`,
-    Author: 'Aaron Graston'
+    author: "Aaron Graston",
   },
-  plugins: ['gatsby-plugin-sass'],
-}
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
+};
